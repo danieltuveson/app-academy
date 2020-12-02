@@ -1,0 +1,35 @@
+li {
+    list-style-type: none;
+}
+
+.tabs h1 {
+    font-size: medium;
+}
+
+.tabs {
+    font-family: 'Roboto Mono', monospace;
+    width: 350px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: rgb(243, 222, 196);
+}
+
+.selected {
+    color: white; 
+    background-color: black;
+}
+
+article {
+    height: 150px;
+    overflow: scroll;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
